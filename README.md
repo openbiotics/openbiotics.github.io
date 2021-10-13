@@ -1,3 +1,3 @@
-# research
+# openbiotics
 
-_logging everyhthing related to openbiotics._
+_logging everything related to openbiotics._

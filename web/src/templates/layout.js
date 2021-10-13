@@ -3,11 +3,14 @@ import { graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
+import Chem from "../components/chem"
 
 import "../styles/main.scss"
 import * as styles from "../styles/layout.module.scss"
 
-const shortcodes = { Link }
+require("katex/dist/katex.min.css")
+
+const shortcodes = { Link, C: Chem }
 
 export default function Layout({ data }) {
   const post = data.mdx
